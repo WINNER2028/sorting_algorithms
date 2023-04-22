@@ -1,8 +1,8 @@
 #include "sort.h"
 
 /**
- * insertion_sort_list - perform insertion sort on a linked list
- * @list: head node of the linked list
+ * insertion_sort_list - performing insertion sort on a linked list
+ * @list: the head node of the linked list
  */
 void insertion_sort_list(listint_t **list)
 {
