@@ -1,12 +1,12 @@
 #include "sort.h"
 /**
- * selection_sort - sorts an array of integers in ascending order
- * @array: element to be sorted
- * @size: size of array
+ * selection_sort - it sorts an array of integers in ascending order
+ * @array: the element to be sorted
+ * @size: size of array to be sorted
  */
 void selection_sort(int *array, size_t size)
 {
-	unsigned int i, j;
+	unsigned int i, k;
 
 	if (size < 2)
 		return;
@@ -16,10 +16,10 @@ void selection_sort(int *array, size_t size)
 		unsigned int x = i;
 		int aux = array[i];
 
-		for (j = i + 1; j < size; j++)
+		for (k = i + 1; k < size; k++)
 		{
-			if (array[j] < aux)
-				aux = array[j], x = j;
+			if (array[k] < aux)
+				aux = array[k], x = k;
 		}
 		if (x != i)
 		{
