@@ -10,16 +10,16 @@ void heap_sort(int *array, size_t size);
 
 /**
  * swap_ints - Swap two integers in an array.
- * @a: The first integer to swap.
- * @b: The second integer to swap.
+ * @i: The first integer to swap.
+ * @j: The second integer to swap.
  */
-void swap_ints(int *a, int *b)
+void swap_ints(int *i, int *j)
 {
 	int tmp;
 
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
+	tmp = *i;
+	*i = *j;
+	*j = tmp;
 }
 
 /**
