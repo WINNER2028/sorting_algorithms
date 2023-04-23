@@ -3,7 +3,7 @@
  * swap - sorts an array of integers in ascending order
  * @array: elements to be sorted
  * @i: left element
- * @j: right element
+ * @k: right element
  * @size: size of array
  */
 void swap(int *array, int i, int K, int size)
