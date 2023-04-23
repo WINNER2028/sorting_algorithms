@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- * Swap - sorts an array of integers in ascending order
+ * swap - sorts an array of integers in ascending order
  * @array: elements to be sorted
  * @i: left element
  * @j: right element
